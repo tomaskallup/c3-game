@@ -1,0 +1,26 @@
+{
+  "langrev": "1",
+  "warnings": [
+    "no-unused"
+  ],
+  "dependency-search-paths": [
+    "lib"
+  ],
+  "dependencies": [],
+  "authors": [
+    "Tomas Kallup"
+  ],
+  "version": "0.0.1",
+  "sources": [
+    "src/**"
+  ],
+  "output": "build",
+  "targets": {
+    "c3game": {
+      "type": "executable",
+      "linked-libraries": ["$RAYLIB_DIR/lib/libraylib.so"]
+    }
+  },
+  "cpu": "generic",
+  "opt": "O0"
+}
