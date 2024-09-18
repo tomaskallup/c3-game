@@ -6,7 +6,7 @@
   "dependency-search-paths": [
     "lib"
   ],
-  "dependencies": [],
+  "dependencies": ["raylib5"],
   "authors": [
     "Tomas Kallup"
   ],
@@ -17,8 +17,7 @@
   "output": "build",
   "targets": {
     "c3game": {
-      "type": "executable",
-      "linked-libraries": ["$RAYLIB_DIR/lib/libraylib.so"]
+      "type": "executable"
     }
   },
   "cpu": "generic",
